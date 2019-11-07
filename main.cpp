@@ -1,9 +1,3 @@
-/*
-REVERSED BY IT'S ME ON 7/6/2018
-whoever made this, it was very disorganized. some things could be done more simply :)
-shit clicker hhhhhhhhhhhh
-*/
-
 #include <Windows.h>
 #include <iostream>
 
@@ -121,9 +115,9 @@ int main( ) {
 	cursorInfo.bVisible = false;
 	SetConsoleCursorInfo( hConsoleOutput, &cursorInfo );
 	SetConsoleTextAttribute( hConsoleOutput, 13 );
-	printf( "Vepe - v1.0 reversed hhh\n" );
+	printf( "C Clicker 0.1" );
 	SetConsoleTextAttribute( hConsoleOutput, 5 );
-	printf( "Reversed by it's me\n\n\n" );
+	printf( "Reversed by Eddy" );
 	SetConsoleTextAttribute( hConsoleOutput, 8 );
 	printf( "Destruct: F8\nToggle: F4\n\n\n" );
 	void* v4 = CreateThread( nullptr, 0, ( LPTHREAD_START_ROUTINE ) main_clicking_thread, nullptr, 0, nullptr );
